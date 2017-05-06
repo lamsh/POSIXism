@@ -4,7 +4,7 @@
 ## \author    SENOO, Ken
 ## \copyright CC0
 ## \date      first created date: 2017-04-30T00:41+09:00
-## \date      last  updated date: 2017-05-02T19:52+09:00
+## \date      last  updated date: 2017-05-06T20:16+09:00
 ################################################################################
 
 : <<-EOT
@@ -39,12 +39,13 @@ shver()(
 		export PATH="${PATH#:}" LC_ALL='C'
 	}
 
-	is_exe_enabled()(command -v ${@+"$@"} >/dev/null)
+	is_exe_enabled()(command -v ${1+"$@"} >/dev/null)
 
 	main()(
-		SHS="sh ksh ksh93 pdksh mksh posh ash dash bash zsh yash fish csh tcsh"
+		SHS='sh ksh ksh93 pdksh mksh posh ash dash bash zsh yash fish csh tcsh busybox'
 		for sh in $SHS; do
 			is_exe_enabled $sh || continue
+			[ $sh = 'busybox' ] && sh='busybox ash'
 			# echo $sh
 			## Busyboxのashはここで終了
 			## x: --help: Bourne sh, sh (ash FreeBSD, NetBSD), dash, ksh88, mksh, pdksh, csh
@@ -60,14 +61,15 @@ shver()(
 			# echo "$ver"
 
 			## ksh88以外はKSH_VERSION変数を優先
-			case $sh in
-				ash)  ver=$($sh --help 2>&1 | head -n 1);;  # Busybox
+			case "$sh" in
+				'busybox ash')  ver=$($sh --help 2>&1 | head -n 1);;
 				ksh|dash|csh|sh) ver=$(man $sh 2>&1 | tail -n 1);;
-				*ksh*) ver=$($sh -c 'echo $KSH_VERSION');;  # ksh93, pdksh, mksh
+				*ksh*) ver="$($sh -c 'echo $KSH_VERSION')";;  # ksh93, pdksh, mksh
 				bash|zsh|fish|tcsh|yash) ver=$($sh --version 2>&1 | head -n 1);;
 				posh) ver="$($sh -c 'echo $POSH_VERSION')";;  # posh
 			esac
-			printf '%s\t%s\n' $sh "$ver"
+
+			printf '%s\t%s\n' "$sh" "$ver"
 		done
 	)
 
