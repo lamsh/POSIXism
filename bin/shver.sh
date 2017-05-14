@@ -3,27 +3,24 @@
 ## \file      shver.sh
 ## \author    SENOO, Ken
 ## \copyright CC0
-## \date      first created date: 2017-04-30T00:41+09:00
-## \date      last  updated date: 2017-05-06T20:16+09:00
+## \date      created date: 2017-04-30T00:41+09:00
+## \date      updated date: 2017-05-14T12:24+09:00
 ################################################################################
 
-: <<-EOT
-方針
---versionオプションがあればこの出力から検索
-sh --version
-なかったら，manコマンドの出力結果から確認？
-ksh系はバージョン情報の入った変数があるのでそれを使う
-EOT
+## Policy
+## if --version option enabled, then search this output.
+## sh --version
+## if --version option disabled, then search man output.
+## ver=$(man $sh 2>&1 | tail -n 1)
+## if ksh like shell, then use KSH_VERSION.
 
-: <<-EOT
---versionの表示例
-bash --version
-GNU bash, version 4.3.46(1)-release (x86_64-pc-linux-gnu)
-zsh --version
-zsh 5.1.1 (x86_64-ubuntu-linux-gnu)
-ksh93 --version
-  version         sh (AT&T Research) 93u+ 2012-08-01
-EOT
+## Sample of --version
+## bash --version
+## GNU bash, version 4.3.46(1)-release (x86_64-pc-linux-gnu)
+## zsh --version
+## zsh 5.1.1 (x86_64-ubuntu-linux-gnu)
+## ksh93 --version
+##   version         sh (AT&T Research) 93u+ 2012-08-01
 
 is_main()(
 	EXE_NAME='shver.sh'
@@ -46,19 +43,6 @@ shver()(
 		for sh in $SHS; do
 			is_exe_enabled $sh || continue
 			[ $sh = 'busybox' ] && sh='busybox ash'
-			# echo $sh
-			## Busyboxのashはここで終了
-			## x: --help: Bourne sh, sh (ash FreeBSD, NetBSD), dash, ksh88, mksh, pdksh, csh
-			# ver=$($sh --help 2>&1 | head -n 1);;
-
-			## x: --version: Bourne sh, sh (ash FreeBSD), ash (Busybox), dash, mksh,  pdksh, ksh88, csh
-			# $sh --version >/dev/null 2>&1 && ver=$($sh --version | head -n 1)
-
-			## helpまたはversionのないコマンドはmanの最終行の日時を使う
-			## x: ash (Busybox)
-			## For Bourne sh, sh (ash FreeBSD), dash, csh
-			# : ${ver:=$( (man $sh 2>&- | tail -n 1) || :)}
-			# echo "$ver"
 
 			## ksh88以外はKSH_VERSION変数を優先
 			case "$sh" in
