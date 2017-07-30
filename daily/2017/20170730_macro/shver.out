@@ -1,0 +1,16 @@
+sh	January 19, 2003
+ksh	
+ksh93	Version AJM 93u+ 2012-08-01
+pdksh	@(#)PD KSH v5.2.14 99/07/13.2
+oksh	@(#)PD KSH v5.2.14 99/07/13.2
+lksh	@(#)LEGACY KSH R52 2016/04/09
+mksh	@(#)MIRBSD KSH R52 2016/04/09
+posh	0.12.6
+dash	January 19, 2003
+bash	GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+zsh	zsh 5.1.1 (x86_64-ubuntu-linux-gnu)
+yash	Yet another shell, version 2.39
+fish	fish, version 2.2.0
+csh	May 2, 2011
+tcsh	tcsh 6.18.01 (Astron) 2012-02-14 (x86_64-unknown-linux) options wide,nls,dl,al,kan,rh,nd,color,filec
+busybox ash	BusyBox v1.22.1 (Ubuntu 1:1.22.0-15ubuntu1) multi-call binary.

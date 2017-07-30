@@ -1,0 +1,241 @@
+sh
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+ksh
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run failure: Include1
+Alias run failure: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+ksh93
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run failure: Include1
+Alias run failure: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+pdksh
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+oksh
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+lksh
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+mksh
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+posh
+dash
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+bash -O expand_aliases
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+zsh
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+yash
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
+busybox ash
+Alias run success: Normal
+Alias run success: Define inside, run outside
+Alias run success: Define outside, run inside
+Alias run success: Include1
+Alias run success: Include2
+Alias run success: func(){}
+Alias run failure: |
+Alias run failure: &
+Alias run failure: ;
+Alias run failure: &&
+Alias run failure: ||
+Alias run failure: if
+Alias run failure: for
+Alias run failure: case
+Alias run failure: while
+Alias run failure: until
+Alias run failure: ()
+Alias run failure: {}
+Alias run failure: func(){}
