@@ -1,0 +1,1631 @@
+﻿<!DOCTYPE html>
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="SENOO, Ken" />
+    <link rel="icon" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgo8IS0tIEF1dGhvcjogU0VOT08sIEtlbgogICAgIExpbmNlbnNlOiBDQzAKICAgICBUaGlzIHdvcmsgaXMgbGljZW5zZWQgdW5kZXIgdGhlIENDMCAxLjAgVW5pdmVyc2FsIExpbmNlbnNlIChodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvcHVibGljZG9tYWluL3plcm8vMS4wLykuIFRvIHRoZSBleHRlbnQgcG9zc2libGUgdW5kZXIgbGF3LCBJIGhhdmUgd2FpdmVkIGFsbCBjb3B5cmlnaHQgYW5kIHJlbGF0ZWQgb3IgbmVpZ2hib3JpbmcgcmlnaHRzIHRvIHRoaXMgd29yay4KLS0+Cgo8c3ZnCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnNvZGlwb2RpPSJodHRwOi8vc29kaXBvZGkuc291cmNlZm9yZ2UubmV0L0RURC9zb2RpcG9kaS0wLmR0ZCIKICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiCiAgIHdpZHRoPSIxMDAiCiAgIGhlaWdodD0iMTAwIgogICBpZD0ic3ZnMiIKICAgdmVyc2lvbj0iMS4xIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIwLjQ4LjQgcjk5MzkiCiAgIHNvZGlwb2RpOmRvY25hbWU9InN0YXItY29sb3Iuc3ZnIj4KICA8ZGVmcwogICAgIGlkPSJkZWZzNCI+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDM4MzkiPgogICAgICA8c3RvcAogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmO3N0b3Atb3BhY2l0eToxOyIKICAgICAgICAgb2Zmc2V0PSIwIgogICAgICAgICBpZD0ic3RvcDM4NDkiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDA7c3RvcC1vcGFjaXR5OjE7IgogICAgICAgICBvZmZzZXQ9IjEiCiAgICAgICAgIGlkPSJzdG9wMzg0MyIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDM4MjUiPgogICAgICA8c3RvcAogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojN2Y5NDg5O3N0b3Atb3BhY2l0eTowLjYxOTYwNzg0OyIKICAgICAgICAgb2Zmc2V0PSIwIgogICAgICAgICBpZD0ic3RvcDM4MzciIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmRkYzA7c3RvcC1vcGFjaXR5OjAuNzQ0ODU1OTQ7IgogICAgICAgICBvZmZzZXQ9IjEiCiAgICAgICAgIGlkPSJzdG9wMzgyOSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDM3ODUiPgogICAgICA8c3RvcAogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwO3N0b3Atb3BhY2l0eTowLjQ5ODAzOTIyOyIKICAgICAgICAgb2Zmc2V0PSIwIgogICAgICAgICBpZD0ic3RvcDM4MTUiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDA7c3RvcC1vcGFjaXR5OjA7IgogICAgICAgICBvZmZzZXQ9IjEiCiAgICAgICAgIGlkPSJzdG9wMzc4OSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0iYmFzZSIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiM2NjY2NjYiCiAgICAgYm9yZGVyb3BhY2l0eT0iMS4wIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwLjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp6b29tPSIyLjY3IgogICAgIGlua3NjYXBlOmN4PSIzOS4yMjE2NzEiCiAgICAgaW5rc2NhcGU6Y3k9IjUzLjYyNTAyNiIKICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0icHgiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ibGF5ZXIxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjEyNjEiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iNjc1IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIxNDQ0IgogICAgIGlua3NjYXBlOndpbmRvdy15PSI0NSIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIwIiAvPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgaW5rc2NhcGU6bGFiZWw9ImNpcmNsZSIKICAgICBpbmtzY2FwZTpncm91cG1vZGU9ImxheWVyIgogICAgIGlkPSJsYXllcjEiCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtOTUyLjM2MjE4KSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUiPgogICAgPHBhdGgKICAgICAgIHNvZGlwb2RpOnR5cGU9ImFyYyIKICAgICAgIHN0eWxlPSJmaWxsOiNlNmU2ZTY7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiCiAgICAgICBpZD0icGF0aDMwMDQiCiAgICAgICBzb2RpcG9kaTpjeD0iNTQuOTEwNzEzIgogICAgICAgc29kaXBvZGk6Y3k9IjQ3LjU4OTI4NyIKICAgICAgIHNvZGlwb2RpOnJ4PSIzMi4wNTM1NyIKICAgICAgIHNvZGlwb2RpOnJ5PSIzMi4wNTM1NyIKICAgICAgIGQ9Im0gODYuOTY0MjgzLDQ3LjU4OTI4NyBhIDMyLjA1MzU3LDMyLjA1MzU3IDAgMSAxIC02NC4xMDcxNCwwIDMyLjA1MzU3LDMyLjA1MzU3IDAgMSAxIDY0LjEwNzE0LDAgeiIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDEuNTU5ODg4NywwLDAsMS41NTk4ODg4LC0zNS42NTQ2MDEsOTI4LjEyODE4KSIgLz4KICA8L2c+CiAgPGcKICAgICBpbmtzY2FwZTpncm91cG1vZGU9ImxheWVyIgogICAgIGlkPSJsYXllcjIiCiAgICAgaW5rc2NhcGU6bGFiZWw9InRyaWFuZ2xlIgogICAgIHN0eWxlPSJvcGFjaXR5OjAuOTM5OTk5OTk7ZGlzcGxheTppbmxpbmUiCiAgICAgc29kaXBvZGk6aW5zZW5zaXRpdmU9InRydWUiPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOiNmZjAwMDA7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiCiAgICAgICBkPSJNIDUwLDAgMzUuNTYyNSwyNSA2NC40Mzc1LDI1IDUwLDAgeiIKICAgICAgIGlkPSJwYXRoNDEzMyIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+CiAgICA8cGF0aAogICAgICAgc3R5bGU9ImZpbGw6I2ZmODAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIKICAgICAgIGQ9Ik0gNjQuNDM3NSwyNSA3OC44NzUsNTAgOTMuMzEyNSwyNSA2NC40Mzc1LDI1IHoiCiAgICAgICBpZD0icGF0aDQxMzEiCiAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiCiAgICAgICBkPSJNIDc4Ljg3NSw1MCA2NC40Mzc1LDc1IDkzLjMxMjUsNzUgNzguODc1LDUwIHoiCiAgICAgICBpZD0icGF0aDQxMjkiCiAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOiMwMGZmMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiCiAgICAgICBkPSJNIDY0LjQzNzUsNzUgMzUuNTYyNSw3NSA1MCwxMDAgNjQuNDM3NSw3NSB6IgogICAgICAgaWQ9InBhdGg0MTI3IgogICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojMDAwMGZmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIgogICAgICAgZD0iTSAzNS41NjI1LDc1IDIxLjEyNSw1MCA2LjY4NzUsNzUgbCAyOC44NzUsMCB6IgogICAgICAgaWQ9InBhdGg0MTI1IgogICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojODAwMGZmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIgogICAgICAgZD0iTSAyMS4xMjUsNTAgMzUuNTYyNSwyNSA2LjY4NzUsMjUgMjEuMTI1LDUwIHoiCiAgICAgICBpZD0icGF0aDMwMTMiCiAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOm5vbmUiCiAgICAgICBkPSJtIDM1LjY4Mzc4MiwyNC45MzMyNTQgYyAwLC0wLjA1MjIgMTQuMTk5NTcsLTI0LjYzOTI2Njc2IDE0LjI3NTg2NiwtMjQuNzE5MTc4NDMgQyA1MC4wMDU1MywwLjE2NjAxOTI1IDYzLjEyNzU1NSwyMi43MjY4NzMgNjQuMjM1NzQxLDI0Ljc1OTEzMiBsIDAuMTE0NDU4LDAuMjA5OSAtMTQuMzMzMjA4LDAgYyAtNy44ODMyNjUsMCAtMTQuMzMzMjA5LC0wLjAxNjEgLTE0LjMzMzIwOSwtMC4wMzU3OCB6IgogICAgICAgaWQ9InBhdGg0MTAxIgogICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz4KICA8L2c+Cjwvc3ZnPgo=" />
+    <title></title>
+    <!-- <meta name="description" contents="" /> -->
+    <!-- <meta name="keywords" contents="" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="default.css" /> -->
+    <style>
+@charset "UTF-8";
+
+/** caption */
+caption::before {
+  counter-increment: table;
+  content: "Table " counter(heading1) "." counter(table) " ";
+}
+table tr:first-of-type {
+  counter-reset: subtable;
+}
+table table caption::before {
+  counter-increment: subtable;
+  content: "(" counter(subtable, lower-alpha) ") ";
+}
+figure>figcaption::before {
+  counter-increment: figure;
+  content: "Figure " counter(heading1) "." counter(figure) " ";
+}
+/* subfigureの開始時だけリセット */
+figure>figure:first-of-type {
+  counter-reset: subfigure;
+}
+/* そのままやると，subfigureの番号が先に登場するのでfigureと番号が不一致 */
+/* だから，subfigure内ではfigureの番号を増加させ，抜けるときに減らす */
+figure>figure>figcaption::before {
+  counter-increment: figure subfigure;
+  counter-reset: subsubfigure;
+  /* content: "Figure " counter(heading1) "." counter(figure) "(" counter(subfigure, lower-alpha) ") "; */
+  content: "(" counter(subfigure, lower-alpha) ") ";
+}
+/* 増やしたfigureの番号を減らして元に戻す */
+figure>figure figcaption::after {
+  content: "";
+  counter-increment: figure -1;
+}
+
+figure pre~figcaption::before,
+figure figcaption:first-child::before {
+  counter-increment: listing;
+  content: "List " counter(heading1) "." counter(listing) " ";
+}
+figure blockquote~figcaption::before {
+  content: "—";
+}
+
+/* list */
+/* listが見出し設定の後にあると見出し番号がリセットされる? */
+/* ol {                                 */
+/*   counter-reset: enum;               */
+/*   list-style-type: none;             */
+/* }                                    */
+/* li::before {                         */
+/*   counter-increment: enum;           */
+/*   content: counters(enum, ".") ". "; */
+/* }                                    */
+ol {
+  counter-reset: enum1;
+  padding-left: 1em;
+}
+ol>li {
+  list-style-type: none;
+  padding-left: 0.5em;
+  text-indent: -0.5em;
+}
+ol>li::before {
+  counter-increment: enum1;
+  content: counter(enum1) ". ";
+}
+ol>li>ol{
+  counter-reset: enum2;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+ol>li>ol>li::before {
+  counter-increment: enum2;
+  content: counter(enum1) "." counter(enum2) ". ";
+}
+ol>li>ol>li>ol{
+  counter-reset: enum3;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+ol>li>ol>li>ol>li::before {
+  counter-increment: enum3;
+  content: counter(enum1) "." counter(enum2) "." counter(enum3) ". ";
+}
+ol>li>ol>li>ol>li>ol{
+  counter-reset: enum4;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+ol>li>ol>li>ol>li>ol>li::before {
+  counter-increment: enum4;
+  content: counter(enum1) "." counter(enum2) "." counter(enum3) "." counter(enum4) ". ";
+}
+ol>li>ol>li>ol>li>ol>li>ol{
+  counter-reset: enum5;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+ol>li>ol>li>ol>li>ol>li>ol>li::before {
+  counter-increment: enum5;
+  content: counter(enum1) "." counter(enum2) "." counter(enum3) "." counter(enum4) "." counter(enum5) ". ";
+}
+ol>li>ol>li>ol>li>ol>li>ol>li>ol{
+  counter-reset: enum6;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+ol>li>ol>li>ol>li>ol>li>ol>li>ol>li::before {
+  counter-increment: enum6;
+  content: counter(enum1) "." counter(enum2) "." counter(enum3) "." counter(enum4) "." counter(enum5) "." counter(enum6) ". ";
+}
+
+
+/* title */
+body>h1:first-of-type {
+  text-align: center;
+  font-size: xx-large;
+}
+
+/* 節番号の設定 */
+body { counter-reset: heading1; }
+
+/** article要素の見出しでカウンターをリセット */
+/* article要素はそんなに入れ子にならないから最上位の見出しだけリセット */
+article>h1:first-of-type,
+article>h2:first-of-type,
+article>h3:first-of-type,
+article>h4:first-of-type,
+article>h5:first-of-type,
+article>h6:first-of-type {
+  counter-reset: heading1;
+  font-size: 2.17em;
+}
+
+section>h1:first-of-type,
+section>h2:first-of-type,
+section>h3:first-of-type,
+section>h4:first-of-type,
+section>h5:first-of-type,
+section>h6:first-of-type {
+  counter-increment: heading1; counter-reset: heading2 figure table listing;
+  font-size: 2.0em;
+}
+
+section>h1:first-of-type::before,
+section>h2:first-of-type::before,
+section>h3:first-of-type::before,
+section>h4:first-of-type::before,
+section>h5:first-of-type::before,
+section>h6:first-of-type::before {
+  content: counter(heading1) " ";
+}
+
+section>section>h1:first-of-type,
+section>section>h2:first-of-type,
+section>section>h3:first-of-type,
+section>section>h4:first-of-type,
+section>section>h5:first-of-type,
+section>section>h6:first-of-type {
+  counter-increment: heading2; counter-reset: heading3;
+  font-size: 1.83em;
+}
+section>section>h1:first-of-type::before,
+section>section>h2:first-of-type::before,
+section>section>h3:first-of-type::before,
+section>section>h4:first-of-type::before,
+section>section>h5:first-of-type::before,
+section>section>h6:first-of-type::before {
+  content: counter(heading1) "." counter(heading2) " ";
+}
+
+section>section>section>h1:first-of-type,
+section>section>section>h2:first-of-type,
+section>section>section>h3:first-of-type,
+section>section>section>h4:first-of-type,
+section>section>section>h5:first-of-type,
+section>section>section>h6:first-of-type {
+  counter-increment: heading3; counter-reset: heading4;
+  font-size: 1.67em;
+}
+section>section>section>h1:first-of-type::before,
+section>section>section>h2:first-of-type::before,
+section>section>section>h3:first-of-type::before,
+section>section>section>h4:first-of-type::before,
+section>section>section>h5:first-of-type::before,
+section>section>section>h6:first-of-type::before {
+  content: counter(heading1) "." counter(heading2) "." counter(heading3) " ";
+}
+
+section>section>section>section>h1:first-of-type,
+section>section>section>section>h2:first-of-type,
+section>section>section>section>h3:first-of-type,
+section>section>section>section>h4:first-of-type,
+section>section>section>section>h5:first-of-type,
+section>section>section>section>h6:first-of-type {
+  counter-increment: heading4; counter-reset: heading5;
+  font-size: 1.50em;
+}
+section>section>section>section>h1:first-of-type::before,
+section>section>section>section>h2:first-of-type::before,
+section>section>section>section>h3:first-of-type::before,
+section>section>section>section>h4:first-of-type::before,
+section>section>section>section>h5:first-of-type::before,
+section>section>section>section>h6:first-of-type::before {
+  content: counter(heading1) "." counter(heading2) "." counter(heading3) "."
+           counter(heading4) " ";
+}
+
+section>section>section>section>section>h1:first-of-type,
+section>section>section>section>section>h2:first-of-type,
+section>section>section>section>section>h3:first-of-type,
+section>section>section>section>section>h4:first-of-type,
+section>section>section>section>section>h5:first-of-type,
+section>section>section>section>section>h6:first-of-type {
+  counter-increment: heading5; counter-reset: heading6;
+  font-size: 1.33em;
+}
+section>section>section>section>section>h1:first-of-type::before,
+section>section>section>section>section>h2:first-of-type::before,
+section>section>section>section>section>h3:first-of-type::before,
+section>section>section>section>section>h4:first-of-type::before,
+section>section>section>section>section>h5:first-of-type::before,
+section>section>section>section>section>h6:first-of-type::before {
+  content: counter(heading1) "." counter(heading2) "." counter(heading3) "."
+           counter(heading4) "." counter(heading5) " ";
+}
+/** heading6 だけカウンターが増えない？ */
+section>section>section>section>section>section>h1:first-of-type,
+section>section>section>section>section>section>h2:first-of-type,
+section>section>section>section>section>section>h3:first-of-type,
+section>section>section>section>section>section>h4:first-of-type,
+section>section>section>section>section>section>h5:first-of-type,
+section>section>section>section>section>section>h6:first-of-type {
+  /* 使っていなくてもheading7をリセットしないとheading6が増えないっぽい */
+  counter-increment: heading6; counter-reset: heading7;
+  font-size: 1.17em;
+}
+section>section>section>section>section>section>h1:first-of-type::before,
+section>section>section>section>section>section>h2:first-of-type::before,
+section>section>section>section>section>section>h3:first-of-type::before,
+section>section>section>section>section>section>h4:first-of-type::before,
+section>section>section>section>section>section>h5:first-of-type::before,
+section>section>section>section>section>section>h6:first-of-type::before {
+  content: counter(heading1) "." counter(heading2) "." counter(heading3) "."
+           counter(heading4) "." counter(heading5) "." counter(heading6) " ";
+}
+
+
+/** Table */
+table {
+  border-collapse: collapse;
+  border: none;
+  /** centering **/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+/** Table color **/
+tbody>tr:nth-of-type(even) {
+  background: #ffffaa;
+}
+thead>tr>th {
+  background: #ffcc99;
+  text-align: center;
+  font-weight: bold
+}
+/** Column margin **/
+td {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+/** Table border **/
+td, th {
+  border-style: none;
+}
+
+thead>tr:first-of-type {
+  border-top-style: solid;
+  border-top-width: medium;
+}
+thead>tr:last-of-type {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+tbody>tr:first-of-type {
+  border-top-style: solid;
+  border-top-width: thin;
+}
+tbody>tr:last-of-type {
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+}
+
+th, td {
+  word-wrap: break-word;
+}
+
+/** Cross reference */
+[href^="#chap:"]::before {
+  content: "第";
+}
+[href^="#chap:"]::after {
+  content: "章";
+}
+[href^="#sec:"]::after, [href^="#sub"]::after {
+  content: "節";
+}
+[href^="#par:"]::after {
+  content: "段落";
+}
+[href^="#enu:"]::before {
+  content: "項目";
+}
+[href^="#eq:"]::before {
+  content: "式(";
+}
+[href^="#eq:"]::after {
+  content: ")";
+}
+[href^="#fig:"]::before {
+  content: "Figure ";
+}
+[href^="#tab:"]::before {
+  content: "Table ";
+}
+[href^="#lis:"]::before {
+  content: "List ";
+}
+
+/** Font */
+body {
+  font-family: "TeX Gyre Heros", "FreeSans", "Migu 1P", "TakaoGothic", "VL Gothic", "Yu Gothic", "Meiryo UI", sans-serif;
+}
+p {
+  text-indent: 1em;
+  word-break: break-all;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "TeX Gyre Heros", "Migu 1P", "TakaoGothic", "VL Gothic", "Yu Gothic", "Meiryo UI", sans-serif;
+  font-weight: bold;
+  /* orange */
+  /* background-color: rgb(100%,80%,0%); */
+  background-color: #e6e6ff;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+em, strong {
+  color: red;
+  font-weight: bold;
+}
+strong {background-color: yellow;}
+
+/** PC */
+kbd, code, samp, var {
+  font-family: "Migu 1M", "Inconsolata", "DejaVu Sans Mono", "Consolas", "TakaoGothic", "VL Gothic", "HGGothicM", "MS Gothic",  monospace;
+  border-width: thin;
+  border-style: solid;
+  border-color: #cccccc;
+  border-radius: 5px;
+}
+kbd {
+  background-color: #ffe6e6;
+}
+code {
+  background-color: #e6ffe6;
+}
+samp {
+  background-color: #e6e6e6;
+}
+var {
+  background-color: #e6ffff;
+}
+pre {
+  font-family: "Migu 1M", "Inconsolata", "DejaVu Sans Mono", "Consolas", "TakaoGothic", "VL Gothic", "HGGothicM", "MS Gothic",  monospace;
+  background-color: #ffffe6;
+  overflow: auto;
+  tab-size: 2;
+}
+
+/** Line number for source code */
+pre>code, pre>samp {
+  display: block;
+  border-style: none;
+  position: relative;
+  padding-left: 3em;
+  overflow-x: auto;
+}
+
+pre>code::before, pre>samp::before {
+  content:
+  "0001000200030004000500060007000800090010001100120013001400150016001700180019002000210022002300240025002600270028002900300031003200330034003500360037003800390040004100420043004400450046004700480049005000510052005300540055005600570058005900600061006200630064006500660067006800690070007100720073007400750076007700780079008000810082008300840085008600870088008900900091009200930094009500960097009800990100010101020103010401050106010701080109011001110112011301140115011601170118011901200121012201230124012501260127012801290130013101320133013401350136013701380139014001410142014301440145014601470148014901500151015201530154015501560157015801590160016101620163016401650166016701680169017001710172017301740175017601770178017901800181018201830184018501860187018801890190019101920193019401950196019701980199020002010202020302040205020602070208020902100211021202130214021502160217021802190220022102220223022402250226022702280229023002310232023302340235023602370238023902400241024202430244024502460247024802490250025102520253025402550256025702580259026002610262026302640265026602670268026902700271027202730274027502760277027802790280028102820283028402850286028702880289029002910292029302940295029602970298029903000301030203030304030503060307030803090310031103120313031403150316031703180319032003210322032303240325032603270328032903300331033203330334033503360337033803390340034103420343034403450346034703480349035003510352035303540355035603570358035903600361036203630364036503660367036803690370037103720373037403750376037703780379038003810382038303840385038603870388038903900391039203930394039503960397039803990400040104020403040404050406040704080409041004110412041304140415041604170418041904200421042204230424042504260427042804290430043104320433043404350436043704380439044004410442044304440445044604470448044904500451045204530454045504560457045804590460046104620463046404650466046704680469047004710472047304740475047604770478047904800481048204830484048504860487048804890490049104920493049404950496049704980499050005010502050305040505050605070508050905100511051205130514051505160517051805190520052105220523052405250526052705280529053005310532053305340535053605370538053905400541054205430544054505460547054805490550055105520553055405550556055705580559056005610562056305640565056605670568056905700571057205730574057505760577057805790580058105820583058405850586058705880589059005910592059305940595059605970598059906000601060206030604060506060607060806090610061106120613061406150616061706180619062006210622062306240625062606270628062906300631063206330634063506360637063806390640064106420643064406450646064706480649065006510652065306540655065606570658065906600661066206630664066506660667066806690670067106720673067406750676067706780679068006810682068306840685068606870688068906900691069206930694069506960697069806990700070107020703070407050706070707080709071007110712071307140715071607170718071907200721072207230724072507260727072807290730073107320733073407350736073707380739074007410742074307440745074607470748074907500751075207530754075507560757075807590760076107620763076407650766076707680769077007710772077307740775077607770778077907800781078207830784078507860787078807890790079107920793079407950796079707980799080008010802080308040805080608070808080908100811081208130814081508160817081808190820082108220823082408250826082708280829083008310832083308340835083608370838083908400841084208430844084508460847084808490850085108520853085408550856085708580859086008610862086308640865086608670868086908700871087208730874087508760877087808790880088108820883088408850886088708880889089008910892089308940895089608970898089909000901090209030904090509060907090809090910091109120913091409150916091709180919092009210922092309240925092609270928092909300931093209330934093509360937093809390940094109420943094409450946094709480949095009510952095309540955095609570958095909600961096209630964096509660967096809690970097109720973097409750976097709780979098009810982098309840985098609870988098909900991099209930994099509960997099809991000";
+
+  display: block;
+  width: 2.4em;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  overflow-y: hidden;
+  border-right: 1px solid;
+}
+
+/** Blockquote */
+blockquote {
+  background-color: #eee;
+  padding: 1.0em;
+  padding-left: 3em;
+  position: relative;
+}
+blockquote::before {
+  content: "“";
+  font-size: 600%;
+  line-height: 1em;
+  font-family: serif;
+  color: #999;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+blockquote p {
+  margin: 0;
+}
+
+/** Description element */
+dt {
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-left: 0.5em;
+}
+dt, dd {
+  line-height: 1.5em;
+  word-wrap: break-word;
+}
+
+dt {
+  float: left;
+  width: 20%;
+}
+dd {
+  margin-left: 22%;
+}
+dd::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/** figure */
+figure {
+  text-align: center;
+}
+
+figure blockquote~figcaption {
+  text-align: right;
+}
+figure blockquote {
+  text-align: left;
+}
+figure pre {
+  text-align: left;
+}
+figure>dl {
+  border-radius: 0.4em;
+  border: solid  thin rgb(10%,10%,10%);
+  background-color: rgb(90%,90%,90%);
+  text-align: left;
+}
+figure>dl>dt {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 0.2em;
+  border-top-right-radius: 0.2em;
+  color: white;
+  background-color: rgb(30%,30%,30%);
+  box-sizing: border-box;
+}
+figure>dl>dd {
+  padding-left: 0.5em;
+  margin: auto;
+}
+figure>dl>dd:nth-of-type(n+2) {
+  border-top-style: dashed;
+  border-top-width: thin;
+}
+.column-2 {
+  width: 45%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.column-3 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.column-4 {
+  width: 20%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/** Description box */
+/** Table reset **/
+.alert thead>tr:last-of-type, .alert tbody>tr:last-of-type,
+.example thead>tr:last-of-type, .example tbody>tr:last-of-type,
+.structure thead>tr:last-of-type, .structure tbody>tr:last-of-type {
+  border: initial;
+}
+
+/*** Base color */
+.alert {
+  background-color: red;
+}
+.example {
+  background-color: green;
+}
+.structure {
+  background-color: blue;
+}
+.alert, .example, .structure {
+  background-image: linear-gradient( hsla( 0,0%,100%,.2 ), hsla( 0,0%,100%,.2 ) );
+}
+/*** Reset border */
+table.alert, table.example, table.structure {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+/*** Table head */
+.alert thead>tr>th, .example thead>tr>th, .structure thead>tr>th {
+  background: initial;
+  text-align: left;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: white;
+  font-size: larger;
+}
+.alert tbody, .example tbody, .structure tbody {
+  background-image: linear-gradient( hsla( 0,0%,100%,.9 ), hsla( 0,0%,100%,.9 ) );
+}
+
+/** Show update date */
+[data-updated-date]::after {
+  color: gray;
+  font-size: 0.5em;
+  content: " Update: " attr(data-updated-date);
+}
+
+
+/** Page style */
+@page {
+  size: A4 portrait;
+  margin: 2cm;
+
+  @top-left {content: "Chapter";}
+  @top-center {content: "Title";}
+  @top-right {content: "Section";}
+  @bottom-left {content: "SENOO, Ken";}
+  @bottom-center {content: "- " counter(page) "/" counter(pages) " -";}
+  @bottom-right {content: "Date";}
+}
+
+/** Print style */
+@media print {
+  /* ShowerでPDF作成するときにChromiumでtheadが二重に表示される対策 */
+  thead {
+    display: table-row-group;
+  }
+
+  /* Show URL */
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
+}
+    </style>
+  </head>
+  <body>
+<section xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<a href="http://myfuturesightforpast.blogspot.com/2017/07/how-to-name-commands-group-in-posix.html">My Future Sight for Past: How to name a commands group in POSIX shell script</a>
+</p>
+<h3 data-updated-date="2017-07-30" id="20170730T1247_How-to-name-commands-group-in-POSIX-shell-script"><a id="mozTocId597559" class="mozTocH3"></a>How to name commands group in POSIX shell script</h3><p>シェルスクリプトで複数コマンド群に名前を付けてグループ化して可読性を向上させる方法について検討した。</p><table style="width: 100%;" class="structure" border="1">
+<thead><tr>
+<th>命名グループ化の検討の概要</th></tr>
+</thead><tbody><tr><td><ul><li>コマンドのグループ化には変数，関数，aliasの3種類の方法が存在。</li><li>aliasは関数と複合文での利用に注意が必要で，過去のPOSIXでオプションのため利用は<em>非推奨</em>。</li><li>実行速度の計測結果から，命名グループ化には<strong>変数（単独）と関数（波括弧）の利用を推奨</strong>。</li></ul>
+</td></tr></tbody></table>
+<p>なお，今回の記事で利用したコード類は以下に格納している。</p><blockquote><p><a href="https://github.com/lamsh/POSIXism/tree/master/daily/2017/20170730_macro">POSIXism/daily/2017/20170730_macro at master · lamsh/POSIXism</a></p></blockquote>
+        <nav>
+<h4>Table of Contents</h4><ol>
+<li><a href="#20170730T1247_Introduction">Introduction</a></li>
+<li><a href="#20170730T1247_Method">Method</a>
+<ol>
+<li><a href="#20170730T1247_Variable%EF%BC%88%E5%A4%89%E6%95%B0%EF%BC%89">Variable（変数）</a></li>
+<li><a href="#20170730T1247_Function%EF%BC%88%E9%96%A2%E6%95%B0%EF%BC%89">Function（関数）</a></li>
+<li><a href="#20170730T1247_alias">alias</a>
+<ol>
+<li><a href="#20170730T1247_bash-expand_aliases">bash expand_aliases</a></li>
+<li><a href="#20170730T1247_alias%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84%E5%A0%B4%E6%89%80">aliasが使えない場所</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#20170730T1247_Result">Result</a></li>
+<li><a href="#20170730T1247_Summary">Summary</a></li>
+</ol>
+
+</nav>
+<section>
+<h4 id="20170730T1247_Introduction"><a id="mozTocId772030" class="mozTocH4"></a>Introduction</h4>
+        <p>シェルスクリプトでは，パイプを使うことで複数のコマンドを繋いで処理できる。しかし，パイプをつないで記述されたコードは，全体として何をやっているのか意味がわかりにくくなる。また，複数のオプションを組み合わせたコマンドの記述や，自分がよく知らないコマンドが使われた場合，どういう処理をやっているのかわかりにくくなる。</p><p>処理内容をわかりやすくするために，複数の処理を変数や関数にまとめ，適切な名前を与える方法がある。例として，以下に<code>pwd</code>コマンドが存在するかどうかを判定するコードを掲載する。</p><pre><code>command -v pwd &gt;/dev/null &amp;&amp; echo found || echo not found</code></pre><p>このコードでは，<code>command -v</code>の処理内容を理解していないと，見ただけでは意味がわからない。しかし，このコードを以下のように関数化して，人がわかるような名前を与えることで，<code>command -v</code>の意味を知らなくても全体の処理内容を理解しやすくなる。</p><pre><code></code><code>is_exe_enabled(){<br />	command -v "$1" /dev/null<br />}<br /><br />is_exe_enabled pwd &amp;&amp; echo found || echo not found</code></pre><p>また，関数にまとめるだけでなく，変数にまとめることでも可読性の向上を実現できる。例えば，以下のコードはbashのバージョンが4.3以上であればbindコマンドを実行している。</p><pre><code>if bash --version | grep -q -e ' 4\.[3-9]*' -e ' [5-9]\.'"; then
+	bind 'TAB: menu-complete'
+fi</code></pre><p>このコードは以下のように，<code>IS_BASH_VER_GE_43</code>変数に一度代入すれば，どのバージョンを対象としているのかがよりわかりやすくなる。</p><pre><code>IS_BASH_VER_GE_43="eval bash --version | grep -q -e ' 4\.[3-9]*' -e ' [5-9]\.'"
+if $IS_BASH_VER_GE_43; then
+	bind 'TAB: menu-complete'
+fi</code></pre>
+<p></p><p>このように，関数や変数などシェルスクリプトには複数の処理に対して別の名前を付ける方法がいくつかある。ここで疑問が生じる。わかりやすくなったのはいいが，それで実行速度が遅くなっていないだろうか？複数の実現方法があるのならば，最も簡単で最も速度の速い方法を採用したい。</p><p>そこで，シェルスクリプトで処理をグループ化して可読性をあげるための方法を紹介し，実行速度を計測することで，どの方法がベストであるかを検討した。</p><p>なお，コードの可読性の向上に関しては，コメントを書くことで補うこともできる。しかし，コメントで説明した場合，実際のコードとコメントの内容を合わせて読む必要があり，読み手に負担がかかる。コメントを書く前に，コメントが不要になるようにコード自体をわかりやすくすべきだろう。</p></section><section>
+<h4 id="20170730T1247_Method"><a id="mozTocId513590" class="mozTocH4"></a>Method</h4><p>処理のグループ化には以下の3種類の方法がある。</p><ol><li>Variable（変数）</li><li>Function（関数）</li><li>alias</li></ol><section>
+<h5 id="20170730T1247_Variable（変数）"><a id="mozTocId439754" class="mozTocH5"></a>Variable（変数）</h5><p>1点目は変数に処理を代入する方法だ。以下のように処理内容を（マクロ）変数に代入し，変数展開により代入された内容を実行する。</p><pre><code>## Simple command (without eval)<br />EXE=pwd<br />$EXE<br /><br />## Compound command (with eval)<br />IS_BASH_VER_GE_43="eval bash --version | grep -q -e ' 4\.[3-9]*' -e ' [5-9]\.'"
+if $IS_BASH_VER_GE_43; then
+	bind 'TAB: menu-complete'
+fi</code></pre><p>シンプルで記述量が少ないが，いくつか注意点がある。</p><table class="alert" style="width: 100%;" border="1"><thead><tr><th>変数の注意点</th></tr></thead><tbody><tr><td><ol><li>予約語（for, while, case, until, (), {}, &amp;&amp;，||，;，&amp;など）利用時は先頭に<code>eval</code>が必要。</li><li><code>eval</code>を使わなければ複数コマンドの実行はできない。</li><li><code>eval</code>を使わなければ引数を受け取れず，引数は末尾にしか使えない。</li><li><code>eval</code>を使わなければ，変数展開は一度しか起きないため，再帰処理は不可能。</li></ol></td></tr></tbody></table><p>変数に代入して展開する場合，通常のコマンドラインの解釈が異なり，<em>予約語が通常の文字列</em>とみなされてしまう。これを回避する場合，先頭に<code>eval</code>を記述することで残りの部分を<code>eval</code>で解釈してやる。</p><p><code>eval</code>を先頭に使う場合，本来よりもコマンドを余計に1個実行するため，速度が遅くなる懸念がある。</p><p>また，<code>eval</code>を先頭に記述する場合は，変数の後に引数を記述することもできる。しかし，受け取った引数は末尾にしか使えないため，引数処理の柔軟性は欠ける。</p><p>使い方としては，条件判定結果を格納して，条件判定に使うのが良い例だろう。</p><pre><code>## 現在のシェルのオプションとしてset -eが有効になっているかを判定<br />IS_ENABLED_SET_E=$( case "$-" in (*e*) echo true;; (*) echo false;; esac )
+if $IS_ENABLE_SET_E; then<br />	echo "set -e is enabled"<br />fi</code></pre><p>条件判定に変数を使う場合，判定結果に応じて0と1の整数を代入して，<code>test</code>コマンドで<code>[ $VAR = 1 ]</code>のように記述する方法もある。しかし，個人的にはこの方法は好ましくないと考えている。理由は以下2点だ。</p><ol><li>人によって条件判定値とその意味が異なる（0と1のどちらが真か不明）。</li><li><code>test</code>コマンドによる記述が冗長になる。</li></ol><p>変数に直接<code>true</code>，<code>false</code>を代入して使ったほうが，意図がわかりやすく，また共に組み込みコマンドとしてPOSIXで定義されているので（速度も）安定している。</p></section><p></p><section>
+<h5 id="20170730T1247_Function（関数）"><a id="mozTocId589414" class="mozTocH5"></a>Function（関数）</h5><p>2点目は関数を使う方法だ。以下のように複数のコマンド群をグループ化できる。</p><pre><code>is_exe_enabled(){<br />	command -v ${1+"$@"} &gt;/dev/null<br />}<br /><br />is_opt_enabled()(
+	EXE="$1"; OPT="$2"
+	"$EXE" --help 2&gt;&amp;1 | grep -q -- "$OPT"'[[:blank:],=[]'
+)</code></pre><p>関数を記述する場合，本体部分に波括弧<code>{}</code>か丸括弧<code>()</code>を使うことができ，それぞれで挙動が異なる。</p><table style="width: 100%;" border="1"><caption>関数定義時の括弧の違い</caption><thead><tr><th>括弧の種類</th><th>説明</th></tr></thead><tbody><tr><td>波括弧<code>{}</code></td><td>現在シェルで実行する。関数内で定義した変数の値，関数定義，set，exportなどの特殊組み込みコマンドの実行結果が，現在シェルにも作用する。</td></tr><tr><td>丸括弧<code>()</code></td><td>サブシェルで実行する。関数内で定義した変数の値，関数定義，set，exportなどの特殊組み込みコマンドの実行結果が，現在シェルには作用しない。</td></tr></tbody></table><p>丸括弧<code>()</code>で定義した場合，その関数は別プロセスとなり現在シェルへの影響を抑制できる。そのため，丸括弧で関数を定義すれば，意図しない変数の変更などを防ぐことができ，保守性が上がる。代わりに，新しくプロセスを作成するので，実行速度が遅くなる懸念がある。</p><p>関数を使えば，引数の扱いも柔軟にでき，複雑な処理も可能なので，汎用性が高いと考えられる。</p></section><p></p><section>
+<h5 id="20170730T1247_alias"><a id="mozTocId399294" class="mozTocH5"></a>alias</h5><p>3点目はaliasを使う方法だ。</p><pre><code>alias IS_ENABLED_SET_E='case "$-" in (*e*) echo true;; (*) echo false;; esac'
+if IS_ENABLE_SET_E; then
+	echo "set -e is enabled"
+fi</code></pre><p>aliasには以下の特徴がある。</p><table class="example" style="width: 100%;" border="1"><thead><tr><th>aliasの特徴</th></tr></thead><tbody><tr><td><ol><li>再帰処理が可能</li><li>予約語が利用可能</li><li>複数行のコマンドが可能</li><li>名前に文字<a href="http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_10"><code>!%,@</code>が使え</a>，より柔軟な命名が可能</li></ol></td></tr></tbody></table><p>変数を使うより柔軟な対応ができ，aliasの定義は一度だけでよいので，alias実行は<code>eval</code>変数を使う場合よりも速度が速い可能性がある。</p><p>なお，ここでいうaliasの定義とは以下のようにaliasコマンドでaliasを作成することを指している。</p><pre><code>alias ll='ls -l'</code></pre><p>変数や関数と異なり，<a href="http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_10">名前に<code>!%,@</code>を使える</a>ので，工夫すればオブジェクト指向型言語のような，メンバー関数（メソッド）やメンバー変数（プロパティ）を実現できる可能性がある。</p><p>ただし，以下の注意点がある。</p><table class="alert" style="width: 100%;" border="1"><thead><tr><th>aliasの注意点</th></tr></thead><tbody><tr><td><ol><li>引数は末尾にしか取れない</li><li>bashではexpand_aliasesオプションを有効にしないと使えない</li><li>関数や複合文など定義しても使えない場所がある</li></ol></td></tr></tbody></table><p>1点目の引数については，変数と同じであり，エイリアス名の後に渡した内容をそのまま引数と解釈する。</p><section>
+<h6 id="20170730T1247_bash-expand_aliases"><a id="mozTocId571691" class="mozTocH6"></a>bash <code>expand_aliases</code></h6>
+        <p>bashには<a href="https://www.gnu.org/software/bash/manual/bash.html#Aliases">expand_aliases</a>というシェルのオプションが存在する。このオプションはbashでalias展開を有効化するためのオプションとなっており，以下のどちらかのコマンドでalias展開を有効化できる。</p><pre><code>bash -O expand_aliases   ## enable with startup<br />shopt -s expand_aliases  ## enable after startup</code></pre><p>bashは標準では対話シェル以外では，<code>expand_aliases</code>がオフになっており，<strong>aliasが展開されない</strong>。</p><p>ただし，bashがPOSIXモード（<a href="https://www.gnu.org/software/bash/manual/bash.html#Bash-POSIX-Mode">6.11 Bash POSIX Mode - Bash Reference Manual</a>）で起動された場合はaliasが展開される。bashがPOSIXモードで起動される場合は以下となる。</p><ul><li>シンボリックリンクなどで<code>bash</code>をコマンド名<code>sh</code>で実行した場合</li>
+        <li>起動オプションに--posixを付けてbashを起動（<code>bash --posix</code>）</li>
+        <li>setコマンドで有効化（<code>set -o posix</code>）</li></ul>
+        <p>シェルスクリプトでbashのaliasが展開されないパターンとしては，以下2通りが存在する。</p>
+        <ol><li>シバンにbashを明示的に指定して実行（<code>#!/bin/bash</code>）<br />
+          <pre><code>cat &lt;&lt;-EOT &gt;alias-shebang.sh<br />#!/bin/bash<br />alias c=:<br />c<br />EOT<br />bash ./alias-shebang.sh</code></pre><pre><samp>./alias-shebang.sh: line 3: c: command not found </samp></pre></li><li>シバンのないシェルスクリプトをbashの対話シェルからファイル名で実行<br /><pre><code>cat &lt;&lt;-EOT &gt;alias-colon.sh<br />:<br />alias c=:<br />c<br />EOT<br />chmod +x alias-colon.sh<br />bash -c './alias-colon.sh'</code></pre>
+          <pre><samp>./alias-colon.sh: line 3: c: command not found</samp></pre></li></ol><p>ここでは詳細を述べないが，シバンがない方がシェルスクリプトの互換性が高まることが調査の結果わかっている。そのため，aliasを使う場合は，bashの対話シェルからでも起動できるように以下のコードで冒頭に記述する必要がある。</p><pre><code>command -v shopt &amp;&amp; shopt -s expand_aliases</code></pre></section><section>
+<h6 id="20170730T1247_aliasが使えない場所"><a id="mozTocId298297" class="mozTocH6"></a>aliasが使えない場所</h6><p>aliasはコマンドを実行しても，aliasが定義できなかったり展開されない記述箇所が存在する。</p><ol><li>関数内で定義した場合は，（たとえ他の関数内でも）関数内では展開できない（関数外なら展開できる）。<br /><pre><code>sh &lt;&lt;-EOT<br />func1(){<br />	alias c=:<br />}<br />func2(){<br />	c<br />}<br />func1<br />func2<br />c<br />EOT</code></pre><pre><samp>sh: line 5: c: comand not found</samp></pre></li><li>複合文（{}, (), if, for, while, until）やリスト（;, &amp;&amp;, ||, &amp;）で定義した場合は，その内部では展開できない（外部では展開できる）。<br /><pre><code>sh &lt;&lt;-EOT<br />{ alias c=:; c; }<br />c<br />EOT</code></pre>
+        <pre><samp>sh: 1 c: not found</samp></pre>
+        </li></ol><p>このことについて，理由を考察する。</p><p>まず1点目の関数内で定義した場合に関数内で使えない理由だ。これは関数は一つの独立した環境であるためだ。</p><p>コマンドの実行環境は以下の通りに定義されている。</p><figure>
+<blockquote><em>Utilities other than the special built-ins (see Special Built-In Utilities) shall be invoked in a separate environment that consists of the following.</em> The initial value of these objects shall be the same as that for the parent shell, except as noted below.<br />    Open files inherited on invocation of the shell, open files controlled by the exec special built-in plus any modifications, and additions specified by any redirections to the utility<br /><ul><li>    Current working directory</li></ul><ul><li>    File creation mask</li></ul><ul><li>    If the utility is a shell script, traps caught by the shell shall be set to the default values and traps ignored by the shell shall be set to be ignored by the utility; if the utility is not a shell script, the trap actions (default or ignore) shall be mapped into the appropriate signal handling actions for the utility</li></ul><ul><li>    Variables with the export attribute, along with those explicitly exported for the duration of the command, shall be passed to the utility environment variables</li></ul><em>The environment of the shell process shall not be changed by the utility</em> unless explicitly specified by the utility description (for example, cd and umask).</blockquote>
+<figcaption><cite><a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_12">2.12 Shell Execution Environment - Shell Command Language - POSIX 2016</a></cite></figcaption>
+</figure><p></p><p>すぐ上のシェル実行環境（shell execution environment）ではaliasが定義されているが，コマンド（utilityl）に関してはaliasについて定義されていない。上記引用部分の末尾で強調した通り，コマンド内で明確に変更されることが記述されていれば，変更は可能である。しかし，aliasの説明を確認しても，関数内でaliasを定義できるとの文言はない。そのため，関数内でaliasの定義と実行を同時にはできないのだと考えられる。</p><p>
+</p><figure>
+<blockquote>DESCRIPTION<br />
+An alias definition shall affect the current shell execution environment
+ and the execution environments of the subshells of the current shell. 
+When used as specified by this volume of POSIX.1-2008, the alias 
+definition shall not affect the parent process of the current shell nor any utility environment invoked by the shell; see Shell Execution Environment.</blockquote>
+  <figcaption><cite><a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/alias.html">alias - XCU - POSIX 2016</a></cite></figcaption>
+</figure>
+<p>なお，aliasの説明で書かれている通り，現在シェルでaliasを定義した場合は，現在の実行環境とサブシェルに影響を与えるため，関数内でもaliasを展開できる。</p><p>2点目の複合文内でのaliasの定義と展開の同時実行について。これは，複合文内はUtilityと同じように別の環境であるためだと考えられる。POSIXでのUtiltyは以下に記載されている通り，Special Built-in utilityを除く名前が付いているものと定義されている。</p><figure>
+<blockquote>A program, excluding special built-in utilities provided as part of the Shell Command Language, that can be <em>called by name</em> from a shell to perform a specific task, or related set of tasks. </blockquote>
+<figcaption><cite><a href="http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_439">3.439 Utility - Definitions - XBD - POSIX 2016</a></cite></figcaption>
+</figure><p></p><p>複合文は名前は付いていないので，Utilityではないと思うのだが，シェル実行環境とは異なるためこのような挙動になっているのだと思われる。</p><p>また，実行後に現在シェルでaliasが有効になっている件については，関数も複合文も同一プロセスであるため，実行後の現在シェルにはaliasの定義が残るのだと考えられる。</p><p>複合文でのaliasの定義・展開については一つ懸念がある。それは，複合文内でaliasの定義・展開が行われている外部のシェルスクリプトをdot.コマンドで読み込んだ場合，どうなるかだ。</p><p>シェルスクリプトが外部でどのように利用されるかは利用者次第だ。コマンドとして実行される他に，dotコマンドでライブラリーとして読み込んで実行されてもおかしくはない。その場合，複合文内でdotコマンドで読み込んだ場合，この挙動だと確実にalias展開が失敗することになる。しかし，dotコマンドはSpecial Built-In Utilityであるため，また別の挙動を示す可能性がある。</p><p>そこで，これらのaliasがどのような挙動を示すか調査した。実際にいろんなシェルでaliasの定義と実行結果について調査し，表にまとめた。検証コードは以下となる。
+        </p><pre style="max-height: 30em;"><code>:
+################################################################################
+## \file      alias.sh
+## \author    SENOO, Ken
+## \copyright CC0
+################################################################################
+
+: &lt;&lt;-EOT
+	aliasが使えないことがあるのでその検証。
+	複合コマンド内でaliasを定義と実行を同時にできない。
+	リストもダメなようだ
+EOT
+
+is_exe_enabled(){
+	IS_ENABLED_SET_E=$( case "$-" in (*e*) echo true;; (*) echo false;; esac )
+	is_command_enabled(){ command -v : &gt;/dev/null 2&gt;&amp;1; }
+
+	$IS_ENABLED_SET_E &amp;&amp; set +e
+	if is_command_enabled; then
+		$IS_ENABLED_SET_E &amp;&amp; set -e
+		command -v ${1+"$@"} &gt;/dev/null 2&gt;&amp;1 &amp;&amp; return || return
+	fi
+	$IS_ENABLED_SET_E &amp;&amp; set -e
+
+	IFS=:
+	for path in $PATH; do
+		unset IFS
+		command -p [ -x "$path/"${1+"$@"} ] &amp;&amp; return
+	done
+}
+
+
+echo_alias_result(){
+	EXIT_STATUS=$?
+	STR=${1+"$@"}
+	if [ $EXIT_STATUS = 0 ]; then
+		echo "Alias run success: $STR"
+	else
+		echo "Alias run failure: $STR"
+	fi
+}
+
+EXE=':'
+SHS='sh ksh ksh93 pdksh oksh lksh mksh posh ash dash bash zsh yash busybox'
+
+TMP_ALIAS_FILE1='tmp-alias1.sh'
+cat &lt;&lt;-EOT &gt;$TMP_ALIAS_FILE1
+	alias c=:
+	c 2&gt;&amp;-
+EOT
+
+TMP_ALIAS_FILE2='tmp-alias2.sh'
+cat &lt;&lt;-EOT &gt;$TMP_ALIAS_FILE2
+	{ alias c=:; }
+	c 2&gt;&amp;-
+EOT
+
+for sh in $SHS; do
+	is_exe_enabled $sh || continue
+	case $sh in busybox) sh='busybox ash'; esac
+	$sh -c "shopt -q 2&gt;&amp;-" &amp;&amp; sh="$sh -O expand_aliases"
+	echo "$sh"
+	$sh -c 'alias &gt;/dev/null 2&gt;&amp;-' || continue
+
+	## Expected Success
+	$sh &lt;&lt;-EOT; echo_alias_result 'Normal'
+		alias c=$EXE
+		c
+	EOT
+	$sh &lt;&lt;-EOT; echo_alias_result 'Define inside, run outside'
+		{ alias c=$EXE; }
+		c
+	EOT
+	$sh &lt;&lt;-EOT; echo_alias_result 'Define outside, run inside'
+		alias c=$EXE
+		{ c; }
+	EOT
+	$sh &lt;&lt;-EOT; echo_alias_result 'Include1'
+		{ . ./$TMP_ALIAS_FILE1; }
+	EOT
+	$sh &lt;&lt;-EOT; echo_alias_result 'Include2'
+		{ . ./$TMP_ALIAS_FILE2; }
+	EOT
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result 'func(){}'
+		func(){
+			alias c=$EXE
+		}
+		func
+		c
+	EOT
+
+	## Expected Failure
+	$sh -c 'alias c=$EXE | c'    2&gt;&amp;-; echo_alias_result '|'
+	$sh -c 'alias c=$EXE &amp; c'    2&gt;&amp;-; echo_alias_result '&amp;'
+	$sh -c 'alias c=$EXE; c'     2&gt;&amp;-; echo_alias_result ';'
+	$sh -c 'alias c=$EXE &amp;&amp; c'   2&gt;&amp;-; echo_alias_result '&amp;&amp;'
+	$sh -c '! alias c=$EXE || c' 2&gt;&amp;-; echo_alias_result '||'
+
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result 'if'
+		if true
+		then
+			alias c=$EXE
+			c
+		fi
+	EOT
+
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result 'for'
+		for i in 0
+		do
+			alias c=$EXE
+			c
+		done
+	EOT
+
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result 'case'
+		case '' in *)
+			alias c=$EXE
+			c
+		esac
+	EOT
+
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result 'while'
+		i=0
+		while [ \$((i+=1)) = 1 ]
+		do
+			alias c=$EXE
+			c
+		done
+	EOT
+
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result 'until'
+		i=0
+		until [ \$((i+=1)) = 2 ]
+		do
+			alias c=$EXE
+			c
+		done
+	EOT
+
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result '()'
+		(
+			alias c=$EXE
+			c
+		)
+	EOT
+
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result '{}'
+		{
+			alias c=$EXE
+			c
+		}
+	EOT
+	$sh &lt;&lt;-EOT 2&gt;&amp;-; echo_alias_result 'func(){}'
+		func1(){
+			alias c=$EXE
+		}
+		func2(){
+			c
+		}
+		func1
+		func2
+	EOT
+done</code></pre><p>
+</p>
+        <div style="max-height: 60em; overflow-y: auto;"><p></p><p></p><table cellspacing="0" border="0"><caption>Alias definition and expansion check</caption>
+
+	<thead>
+    <tr>
+		<th align="left">Type</th>
+		<th align="left">Command</th>
+		<th align="left">ksh93</th>
+		<th align="left">pdksh</th>
+		<th align="left">oksh</th>
+		<th align="left">lksh</th>
+		<th align="left">mksh</th>
+		<th align="left">posh</th>
+		<th align="left">dash</th>
+		<th align="left">bash</th>
+		<th align="left">zsh</th>
+		<th align="left">yash</th>
+		<th align="left">busybox</th>
+	</tr>
+
+        </thead>
+        <tbody style="height: 960px;">
+	<tr>
+		<td align="left" height="32">Normal</td>
+		<td align="left">alias c=:<br />c</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+	</tr>
+	<tr>
+		<td align="left" height="32">Define inside, run outside</td>
+		<td align="left">{ alias c=:; }<br />c</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+	</tr>
+	<tr>
+		<td align="left" height="32">Define outside, run inside</td>
+		<td align="left">alias c=:<br />{ c; }</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+	</tr>
+	<tr>
+		<td align="left" height="47">Include1</td>
+		<td align="left">{ . ./tmp-alias1.sh; }<br /># alias c=:<br /># c</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+	</tr>
+	<tr>
+		<td align="left" height="47">Include2</td>
+		<td align="left">{ . ./tmp-alias2.sh; }<br /># { alias c=:; }<br /># c</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+	</tr>
+	<tr>
+		<td align="left" height="77">func(){}</td>
+		<td align="left">func(){<br />alias c=:<br />}<br />func<br />c</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left"><br /></td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+		<td align="left">○</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">|</td>
+		<td align="left">alias c=: | c</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="17">&amp;</td>
+		<td align="left">alias c=: &amp; c</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="17">;</td>
+		<td align="left">alias c=:; c</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="17">&amp;&amp;</td>
+		<td align="left">alias c=: &amp;&amp; c</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="17">||</td>
+		<td align="left">! alias c=: || c</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="77">if</td>
+		<td align="left">if true<br />then<br />alias c=:<br />c<br />fi</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left">for</td>
+		<td align="left">for i in 0<br />do<br />alias c=:<br />c<br />done</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td style="height: 54.75px;" align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="62">case</td>
+		<td align="left">case '' in *)<br />alias c=:<br />c<br />esac</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="92">while</td>
+		<td align="left">i=0<br />while [ $((i+=1)) = 1]<br />do<br />alias c=:<br />c<br />done</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="92">until</td>
+		<td align="left">i=0<br />until [ $((i+=1)) = 2]<br />do<br />alias c=:<br />c<br />done</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="62">()</td>
+		<td align="left">(<br />alias c=:<br />c<br />)</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="62">{}</td>
+		<td align="left">{<br />alias c=:<br />c<br />}</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+	<tr>
+		<td align="left" height="121">func(){}</td>
+		<td align="left">func1(){<br />alias c=:<br />}<br />func2(){<br />c<br />}<br />func1<br />func2</td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+		<td align="left"><br /></td>
+	</tr>
+</tbody></table>
+        </div>
+<p>表の見方は，縦軸に実行したコマンドがあり，横軸に実行したシェルが並んでいる。○が付いた欄はalias展開に成功したことを示し，空欄は失敗したことを示す。</p><p>調査結果についての考察を以下にまとめた。</p><table class="example" style="width: 100%;" border="1"><thead><tr><th>aliasの挙動の結果考察</th></tr></thead><tbody><tr><td><ul><li>poshはaliasコマンドが存在しないため，全ての欄が空欄となった。</li><li>予想通り，複合文とリストではaliasは展開できなかった。</li><li><em>ksh93だけ複合文内でdot.コマンドでaliasを展開できず</em>，他のシェルでは展開できた。</li></ul></td></tr></tbody></table><p>dot.コマンドで読み込む場合は特殊なようで，多くのシェルでは問題なく複合文内でもaliasを展開できた。しかし，ksh93だけはできなかった。</p><p>aliasは名前に使える文字が多く，再帰など興味深く応用が効きそうではある。しかし，関数内や複合文内での定義・実行に難があることがわかった。また，aliasコマンドは<a href="http://pubs.opengroup.org/onlinepubs/9699919799.2008edition/">POSIX 2008</a>になるまでのPOSIX 1992，2001，2004ではUPE（User Portability Option）扱いであり，<em>必須ではなかった</em>。実際に，poshのようにaliasコマンドに対応していないシェルが存在する。これらのことから，シェルスクリプト内でのaliasの利用は控えたほうが無難かもしれない。</p></section></section></section><section>
+<h1 id="20170730T1247_Result"><a id="mozTocId440111" class="mozTocH1"></a>Result</h1><p>ここまでで処理に名前を付けてグループ化する3種類の方法について紹介した。</p><p>実際にこれらの方法でコマンドを実行して，実行速度を計測した。</p><p>実行は以下の8パターンを試した。</p><ol><li>通常：:</li><li>変数（単独）：MACRO_N</li><li>変数（eval）：MACRO_E</li><li>alias：MACRO_A</li><li>関数（波括弧）：MACRO_B</li><li>関数（丸括弧）：MACRO_P</li><li>複合文（波括弧）：{ :; }</li><li>複合文（丸括弧）：( : )</li></ol><p>関数の実行方法が変わった際にどれくらい実行速度が変わるかを見たいだけなので，試験用のコマンドは何もしない組み込みコマンドの<code>:</code>を採用した。</p><p>上記の7と8は処理の命名グループ化とは直接は関係ないが，コマンド実行時間がどれくらいかかるかの参考にする良い機会と判断したので，追加した。</p><p>なお，使用したシェルは以下であり，Ubuntu 16.04で測定した。</p><pre><code>ksh93   Version AJM 93u+ 2012-08-01
+pdksh   @(#)PD KSH v5.2.14 99/07/13.2
+oksh    @(#)PD KSH v5.2.14 99/07/13.2
+lksh    @(#)LEGACY KSH R52 2016/04/09
+mksh    @(#)MIRBSD KSH R52 2016/04/09
+posh    0.12.6
+dash    January 19, 2003
+bash    GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+zsh     zsh 5.1.1 (x86_64-ubuntu-linux-gnu)
+yash    Yet another shell, version 2.39
+busybox ash     BusyBox v1.22.1 (Ubuntu 1:1.22.0-15ubuntu1) multi-call binary.</code></pre><p>検証には以下の2個のコードを利用し，<code>./run-time-macro.sh</code>を実行した。</p><pre><code>:
+################################################################################
+## \file      run-time-macro.sh
+## \author    SENOO, Ken
+## \copyright CC0
+################################################################################
+
+main(){
+	init
+	SHS='sh ksh ksh93 pdksh oksh lksh mksh posh ash dash bash zsh yash busybox'
+	for sh in $SHS; do
+		case $sh in busybox) sh='busybox ash'; esac
+		is_exe_enabled $sh || continue
+		printf "$sh: "
+		$sh time-macro.sh
+	done
+}
+
+## \brief Initialize POSIX shell environment
+init(){
+	PATH="$(command -p getconf PATH 2&gt;&amp;-):${PATH:-.}"
+	export PATH="${PATH#:}" LC_ALL='C'
+	umask 0022
+	set -eu
+}
+
+is_exe_enabled(){
+	IS_ENABLED_SET_E=$( case "$-" in (*e*) echo true;; (*) echo false;; esac )
+	is_command_enabled(){ command -v : &gt;/dev/null 2&gt;&amp;1; }
+
+	$IS_ENABLED_SET_E &amp;&amp; set +e
+	if is_command_enabled; then
+		$IS_ENABLED_SET_E &amp;&amp; set -e
+		command -v ${1+"$@"} &gt;/dev/null 2&gt;&amp;1 &amp;&amp; return || return
+	fi
+	$IS_ENABLED_SET_E &amp;&amp; set -e
+
+	IFS=:
+	for path in $PATH; do
+		unset IFS
+		command -p [ -x "$path/"${1+"$@"} ] &amp;&amp; return
+	done
+}
+
+main</code></pre>
+        <pre style="height: 50em"><code>:
+################################################################################
+## \file      time-macro.sh
+## \author    SENOO, Ken
+## \copyright CC0
+################################################################################
+
+## \brief Compare macro for readable code.
+## 0. none
+## 1. variable
+## 2. eval
+## 3. alias
+## 4. function(){}
+## 5. function()()
+## 6. {}
+## 7. ()
+
+main(){
+	init
+	echo "Execution time[s] for $N times"
+	echo "only body"
+	run_body
+	echo "including definition"
+	run_total
+}
+
+## \brief Initialize POSIX shell environment
+init(){
+	PATH="$(command -p getconf PATH 2&gt;&amp;-):${PATH:-.}"
+	export PATH="${PATH#:}" LC_ALL='C'
+	umask 0022
+	set -eu
+
+	is_exe_enabled shopt &amp;&amp; shopt -s expand_aliases
+	export N=100000
+	TAB=$(printf '\t')
+	N_TEST=$(( 8 + 1 ))
+	EXE=':'
+	MACRO_N="MACRO_N='$EXE'"
+	MACRO_E="MACRO_E='eval $EXE'"
+	MACRO_A="alias MACRO_A='$EXE'"
+	MACRO_B="MACRO_B(){ $EXE; }"
+	MACRO_P="MACRO_P()( $EXE  )"
+	BRACE="{ $EXE; }"
+	PAREN="( $EXE )"
+}
+
+is_exe_enabled(){
+	IS_ENABLED_SET_E=$( case "$-" in (*e*) echo true;; (*) echo false;; esac )
+	is_command_enabled(){ command -v : &gt;/dev/null 2&gt;&amp;1; }
+
+	$IS_ENABLED_SET_E &amp;&amp; set +e
+	if is_command_enabled; then
+		$IS_ENABLED_SET_E &amp;&amp; set -e
+		command -v ${1+"$@"} &gt;/dev/null 2&gt;&amp;1 &amp;&amp; return || return
+	fi
+	$IS_ENABLED_SET_E &amp;&amp; set -e
+
+	IFS=:
+	for path in $PATH; do
+		unset IFS
+		command -p [ -x "$path/"${1+"$@"} ] &amp;&amp; return
+	done
+}
+
+run_body(){
+	{
+		printf 'Command\nReal\nUser\nSys\n'
+		timeit_body '$EXE' "$EXE"
+		timeit_body '$MACRO_N' "$MACRO_N"
+		timeit_body '$MACRO_E' "$MACRO_E"
+		timeit_body  'MACRO_A' "$MACRO_A"
+		timeit_body  'MACRO_B' "$MACRO_B"
+		timeit_body  'MACRO_P' "$MACRO_P"
+		timeit_body  "$BRACE" "$BRACE"
+		timeit_body  "$PAREN" "$PAREN"
+	} 2&gt;&amp;1 | format
+}
+
+## \brief Time exe only body
+timeit_body(){
+	EXE_STR="$1"; EXE_VAR="$2"
+	echo "$EXE_VAR"
+
+	\time -p sh &lt;&lt;-EOT
+		eval "$EXE_VAR"
+		for i in \$(yes | head -n $N); do
+			$EXE_STR
+		done
+	EOT
+}
+
+run_total(){
+	{
+		printf 'Command\nReal\nUser\nSys\n'
+		timeit_total '$EXE'     "$EXE"
+		timeit_total '$MACRO_N' "$MACRO_N"
+		timeit_total '$MACRO_E' "$MACRO_E"
+		timeit_total  'MACRO_A' "$MACRO_A"
+		timeit_total  'MACRO_B' "$MACRO_B"
+		timeit_total  'MACRO_P' "$MACRO_P"
+		timeit_total  "$BRACE" "$BRACE"
+		timeit_total  "$PAREN" "$PAREN"
+	} 2&gt;&amp;1 | format
+}
+
+## \brief Time exe including definition
+timeit_total(){
+	EXE_STR="$1"; EXE_VAR="$2"
+	echo "$EXE_VAR"
+
+	\time -p sh &lt;&lt;-EOT
+		eval "$EXE_VAR"  ## for alias
+		for i in \$(yes | head -n $N); do
+			eval "$EXE_VAR"  ## run definition
+			$EXE_STR
+		done
+	EOT
+}
+
+format(){
+	pr -t"$N_TEST"s"$TAB" | sed -e 's/real *//g' -e 's/user *//g' -e 's/sys *//g'
+}
+
+main</code></pre><p>実行結果を整理したものを以下の表に示した。</p>
+        <table style="width: 100%" border="1">
+          <caption>Group commands execution time[s] for 100000 times</caption>
+          <tbody><tr><td>
+<table cellspacing="0" border="0">
+  <caption>Only body</caption>
+  <thead>
+    <tr>
+		<th align="left" height="17">Shell</th>
+		<th sdnum="1033;0;@" align="left">:</th>
+		<th sdnum="1033;0;@" align="left">MACRO_N=':'</th>
+        <th sdnum="1033;0;@" align="left">MACRO_E='eval :'</th>
+		<th sdnum="1033;0;@" align="left">alias MACRO_A=':'</th>
+		<th sdnum="1033;0;@" align="left">MACRO_B(){ :; }</th>
+		<th sdnum="1033;0;@" align="left">MACRO_P()( :  )</th>
+		<th sdnum="1033;0;@" align="left">{ :; }</th>
+		<th sdnum="1033;0;@" align="left">( : )</th>
+	</tr>
+  </thead>
+  <tbody>
+	<tr>
+		<td align="left" height="17">ksh93</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.08</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.05</td>
+		<td sdnum="1033;0;@" align="left">13.88</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">15.43</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">pdksh</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">0.11</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.07</td>
+		<td sdnum="1033;0;@" align="left">15.86</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">15.92</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">oksh</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">13.43</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">13.81</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">lksh</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.08</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">13.90</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">14.15</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">mksh</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">0.11</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.06</td>
+		<td sdnum="1033;0;@" align="left">14.71</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">14.33</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">posh</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">14.20</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">14.05</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">dash</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.05</td>
+		<td sdnum="1033;0;@" align="left">14.10</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">14.34</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">bash</td>
+		<td sdnum="1033;0;@" align="left">0.05</td>
+		<td sdnum="1033;0;@" align="left">0.05</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">14.02</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">13.47</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">zsh</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.08</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">13.78</td>
+		<td sdnum="1033;0;@" align="left">0.02</td>
+		<td sdnum="1033;0;@" align="left">14.32</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">yash</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.03</td>
+		<td sdnum="1033;0;@" align="left">0.04</td>
+		<td sdnum="1033;0;@" align="left">14.61</td>
+		<td sdnum="1033;0;@" align="left">0.05</td>
+		<td sdnum="1033;0;@" align="left">14.88</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">busybox ash</td>
+		<td sdnum="1033;0;@" align="left">0.07</td>
+		<td sdnum="1033;0;@" align="left">0.07</td>
+		<td sdnum="1033;0;@" align="left">0.16</td>
+		<td sdnum="1033;0;@" align="left">0.05</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">13.78</td>
+		<td sdnum="1033;0;@" align="left">0.06</td>
+		<td sdnum="1033;0;@" align="left">13.43</td>
+	</tr>
+</tbody></table>
+</td></tr><tr><td>
+<table cellspacing="0" border="0">
+  <caption>Including definition</caption>
+  <thead>
+    <tr>
+      <th align="left" height="17">Shell</th>
+		<th sdnum="1033;0;@" align="left">:</th>
+		<th sdnum="1033;0;@" align="left">MACRO_N=':'</th>
+		<th sdnum="1033;0;@" align="left">MACRO_E='eval :'</th>
+		<th sdnum="1033;0;@" align="left">alias MACRO_A=':'</th>
+		<th sdnum="1033;0;@" align="left">MACRO_B(){ :; }</th>
+		<th sdnum="1033;0;@" align="left">MACRO_P()( :  )</th>
+		<th sdnum="1033;0;@" align="left">{ :; }</th>
+		<th sdnum="1033;0;@" align="left">( : )</th>
+	</tr>
+
+  </thead>
+  <tbody>
+	<tr>
+		<td align="left" height="17">ksh93</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.18</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">0.16</td>
+		<td sdnum="1033;0;@" align="left">14.10</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">30.06</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">pdksh</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.16</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">14.80</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">28.75</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">oksh</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.11</td>
+		<td sdnum="1033;0;@" align="left">0.16</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">14.09</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">29.23</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">lksh</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.17</td>
+		<td sdnum="1033;0;@" align="left">0.17</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">0.14</td>
+		<td sdnum="1033;0;@" align="left">14.80</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">29.02</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">mksh</td>
+		<td sdnum="1033;0;@" align="left">0.08</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.17</td>
+		<td sdnum="1033;0;@" align="left">0.14</td>
+		<td sdnum="1033;0;@" align="left">0.16</td>
+		<td sdnum="1033;0;@" align="left">15.21</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">27.72</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">posh</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.17</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.14</td>
+		<td sdnum="1033;0;@" align="left">15.18</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">29.55</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">dash</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.19</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">0.15</td>
+		<td sdnum="1033;0;@" align="left">16.35</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">31.62</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">bash</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.16</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.14</td>
+		<td sdnum="1033;0;@" align="left">14.71</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">28.33</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">zsh</td>
+		<td sdnum="1033;0;@" align="left">0.09</td>
+		<td sdnum="1033;0;@" align="left">0.11</td>
+		<td sdnum="1033;0;@" align="left">0.17</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">15.00</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">29.09</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">yash</td>
+		<td sdnum="1033;0;@" align="left">0.10</td>
+		<td sdnum="1033;0;@" align="left">0.13</td>
+		<td sdnum="1033;0;@" align="left">0.19</td>
+		<td sdnum="1033;0;@" align="left">0.12</td>
+		<td sdnum="1033;0;@" align="left">0.15</td>
+		<td sdnum="1033;0;@" align="left">15.89</td>
+		<td sdnum="1033;0;@" align="left">0.11</td>
+		<td sdnum="1033;0;@" align="left">29.40</td>
+	</tr>
+	<tr>
+		<td align="left" height="17">busybox ash</td>
+		<td sdnum="1033;0;@" align="left">0.17</td>
+		<td sdnum="1033;0;@" align="left">0.22</td>
+		<td sdnum="1033;0;@" align="left">0.32</td>
+		<td sdnum="1033;0;@" align="left">0.26</td>
+		<td sdnum="1033;0;@" align="left">0.23</td>
+		<td sdnum="1033;0;@" align="left">14.37</td>
+		<td sdnum="1033;0;@" align="left">0.19</td>
+		<td sdnum="1033;0;@" align="left">28.39</td>
+	</tr>
+</tbody></table>
+</td></tr></tbody></table>
+        <p>まず，表の見方について説明する。この表は10万回実行した際の経過時間[s]を示している。そのため，100倍して，単位をm（ミリ）をつければ1回あたりに実行速度となる。</p><p>(a) Only bodyはコマンドの定義を含めずに，本体部分を実行した際の速度となっている。そして，(b) Including definitionはコマンドの定義を含めた計測時間となっている。なお，aliasは複合文内で定義をすると実行できないため，計測のforループ外で定義する必要がある。処理の負担を平等にするため全てのケースで<code>eval</code>により定義を実行している。そのため，Including definitionはevalのコマンドの実行分の約0.05 s/10万回の時間が余計にかかっている。また，最後の複合文2個は定義と本体が同一であるため，単純に2回実行することになり，時間がかかっている。2列目の:の列が命名によるグループ化を行っていないケースなので，これが実行速度の基準となる。</p><p>調査結果の考察を以下に掲載する。</p>
+        <table class="example" border="1"><thead><tr><th>命名グループ化の速度計測結果の考察</th></tr></thead><tbody><tr><td><ul><li>定義を含めたとしても，<strong>変数（単独），alias，複合（波括弧）は基準ケースよりも3 ms程度遅れる程度であり，十分速度が速い</strong>。これらはシェルのコマンドライン解釈だけで展開されるため，プロセスの発生がないため速度が速いのだと思われる。</li><li>関数（丸括弧）と複合（丸括弧）は，サブシェルで実行するため，基準ケースの60-70倍も実行時間を要しており，<strong>ループでの利用は極力控えたほうがよい</strong>。</li><li>変数（eval）は，基準ケースの2-3倍程度の実行時間を要しており，関数（波括弧）よりも遅いことが分かった。そのため，<strong>変数（eval）よりも，関数（波括弧）を利用したほうがよい</strong>といえる。</li><li>busyboxは全体として組み込みコマンドの実行速度が他のシェルの約2倍かかっており，遅いことが分かった。それ以外のシェルは概ね似たような実行速度だった。</li></ul></td></tr></tbody></table>
+        </section>
+        <section>
+          <h4 id="20170730T1247_Summary"><a id="mozTocId658545" class="mozTocH4"></a>Summary</h4>
+        <p>シェルスクリプトの可読性を向上させるために，複数のコマンドに名前を付けてグループ化する方法を検討した。その概要を以下に示す。</p>
+          <table class="structure" border="1"><thead><tr><th>命名グループ化の検討の概要</th></tr></thead><tbody><tr><td><ul><li>グループ化には変数，関数，aliasの3種類の方法が存在し，それぞれの特徴を紹介した。</li><li>aliasは関数と複合文での実行・定義に注意が必要であり，aliasコマンド自体が過去のPOSIXでオプションであることからシェルスクリプトでの利用は<em>避けたほうがよい</em>。</li><li>実行速度の計測結果から，命名グループ化には<strong>変数（単独）と関数（波括弧）の利用が推奨</strong>される。</li></ul></td></tr></tbody>
+          </table>
+          <p>コマンドの実行というシェルスクリプトを書くうえでかなり基本的な部分に注目した検討を行った。実行速度を計測することで，今までなんとなく把握していた，丸括弧によるサブシェルでの実行が遅いということや，変数やalias展開は実行速度が速いということが定量的に分かった。</p>
+          <p>今後は今回の調査結果を利用して，可読性と実効速度に注意を払ったシェルスクリプトの作成を心がける。</p>
+        </section>
+        </section>
+  </body>
+</html>
